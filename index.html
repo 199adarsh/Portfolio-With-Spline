@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSOHAL 2050</title>
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.92/build/spline-viewer.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init({
+                publicKey: "sZ83ZnZkOqfzPhFLM",
+            });
+        })();
+    </script>
+</head>
+<body>
+    <!-- Loading Overlay -->
+    <div class="loading-overlay">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <div class="loading-text">INITIALIZING SYSTEM</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <a href="#" class="logo">D Sohal</a>
+            <div class="nav-links" id="navLinks">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="spline-container">
+            <div class="spline-loader">
+                <div class="spline-loader-spinner"></div>
+                <div class="spline-loader-text">LOADING 3D SCENE</div>
+            </div>
+            <spline-viewer url="https://prod.spline.design/9wB-4ftnvJToucta/scene.splinecode"></spline-viewer>
+        </div>
+        <div class="hero-content">
+            <h1 class="split-text">Crafting Future-Ready Code with Passion</h1>
+            <p class="typewriter">Building elegant solutions with clean, efficient code</p>
+            <a href="#contact" class="hero-cta">Let's Work Together</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p class="about-text">💻 Shoal Dhavle — Full-Stack Developer</p>
+                <p class="about-text">I'm a full-stack developer with <b>14+ competition wins</b> and a passion for solving complex problems with clean, efficient code. From low-level system programming to responsive web apps, I build elegant solutions in C, C++, Python, and JavaScript. Whether it's hackathons or high-stakes projects, I thrive in collaborative environments where innovation meets precision.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+        
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img data-src="https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=1000" alt="DSSA Website" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>DSSA Official Website</h3>
+                        <p>Built to promote events, foster connections, and showcase innovation, featuring a futuristic design with engaging CTAs</p>
+                        <a href="#" class="btn-future">Explore</a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img data-src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1000" alt="Portfolio Website" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio Website Development</h3>
+                        <p>A visually striking personal portfolio website designed to reflect a cybersecurity and ethical hacking theme.</p>
+                        <a href="#" class="btn-future">Explore</a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img data-src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1000" alt="Idea Lab Website" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>Idea Lab Website - DKTE</h3>
+                        <p>An intuitive and efficient web platform designed to help users browse and check the availability of over 162+ specialized equipment at the Idea Lab.</p>
+                        <a href="#" class="btn-future">Explore</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <div class="skill-info">
+                        <h3>C++</h3>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-java"></i></div>
+                    <div class="skill-info">
+                        <h3>Java</h3>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-js"></i></div>
+                    <div class="skill-info">
+                        <h3>JavaScript</h3>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <div class="skill-info">
+                        <h3>SQL</h3>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-react"></i></div>
+                    <div class="skill-info">
+                        <h3>React.js</h3>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-bolt"></i></div>
+                    <div class="skill-info">
+                        <h3>GSAP</h3>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-figma"></i></div>
+                    <div class="skill-info">
+                        <h3>Figma</h3>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-terminal"></i></div>
+                    <div class="skill-info">
+                        <h3>C</h3>
+                    </div>
+                </div>
+              
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-python"></i></div>
+                    <div class="skill-info">
+                        <h3>Python</h3>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                    <div class="skill-info">
+                        <h3>CSS</h3>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                    <div class="skill-info">
+                        <h3>HTML5</h3>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-server"></i></div>
+                    <div class="skill-info">
+                        <h3>Postman API</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements section">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+            
+            <div class="achievement-category">
+                <h3 class="category-title">Competition Wins</h3>
+                <div class="marquee-container">
+                    <div class="marquee">
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h3>Code War Champion</h3>
+                                <p>1st place at Dr. Ghali College's "Technoparv 2025"</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-medal"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h3>Team Excellence</h3>
+                                <p>1st place at DKTE College with Vinay Khapare</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h3>Library System Innovator</h3>
+                                <p>1st prize with Aditya Mali in C language</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h3>IEEE & Codechef Champion</h3>
+                                <p>1st place at DKTE College</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h3>C Pro Master</h3>
+                                <p>2nd rank at Bharati Vidyapeeth</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h3>Web Design Expert</h3>
+                                <p>2nd rank at RIT College</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h3>Code War Champion</h3>
+                                <p>1st place at Dr. Ghali College's "Technoparv 2025"</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-medal"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h3>Team Excellence</h3>
+                                <p>1st place at DKTE College with Vinay Khapare</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h3>Library System Innovator</h3>
+                                <p>1st prize with Aditya Mali in C language</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h3>IEEE & Codechef Champion</h3>
+                                <p>1st place at DKTE College</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h3>C Pro Master</h3>
+                                <p>2nd rank at Bharati Vidyapeeth</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h3>Web Design Expert</h3>
+                                <p>2nd rank at RIT College</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="achievement-category">
+                <h3 class="category-title">Technical Excellence</h3>
+                <div class="marquee-container">
+                    <div class="marquee reverse">
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h3>Python Master</h3>
+                                <p>1st rank at SIT College</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h3>AI & ML Excellence</h3>
+                                <p>2nd prize in Machine Learning</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-code-branch"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h3>C Language Expert</h3>
+                                <p>2nd rank in C language Competition</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-python"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h3>Python Competition</h3>
+                                <p>2nd rank at SIT College</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h3>Python Victory</h3>
+                                <p>2nd place - 7th victory in 2024</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h3>Startup Innovator</h3>
+                                <p>1st place at DKTE College</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h3>Python Master</h3>
+                                <p>1st rank at SIT College</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h3>AI & ML Excellence</h3>
+                                <p>2nd prize in Machine Learning</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-code-branch"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h3>C Language Expert</h3>
+                                <p>2nd rank in C language Competition</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-python"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h3>Python Competition</h3>
+                                <p>2nd rank at SIT College</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h3>Python Victory</h3>
+                                <p>2nd place - 7th victory in 2024</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h3>Startup Innovator</h3>
+                                <p>1st place at DKTE College</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internships Section -->
+    <section id="internships" class="internships section">
+        <div class="container">
+            <h2 class="section-title">Internships</h2>
+            <div class="internships-grid">
+                <div class="internship-card">
+                    <div class="internship-header">
+                        <div class="internship-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <img data-src="img/in1.jpg" alt="Cognifyz Technologies" class="company-logo" loading="lazy">
+                    </div>
+                    <div class="internship-content">
+                        <h3>Machine Learning Intern</h3>
+                        <p class="company">Cognifyz Technologies</p>
+                        <p class="duration">AICTE Approved Internship</p>
+                        <div class="skill-tags">
+                            <span>Machine Learning</span>
+                            <span>Data Science</span>
+                            <span>AI</span>
+                            <span>Python</span>
+                        </div>
+                        <ul class="achievements">
+                            <li>Hands-on experience with cutting-edge ML techniques</li>
+                            <li>Applied data science in real-world scenarios</li>
+                            <li>Structured learning in AICTE approved program</li>
+                        </ul>
+                        <a href="https://www.linkedin.com/posts/sohal-dhavale-3b1208258_datascienceinternship-aicteapproved-cognifyz-activity-7268465895977406466-9CG9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE-8EQ4BI8kca2B-s4HXKHKZH72QOYXoyWY" target="_blank" class="linkedin-link">
+                            <i class="fab fa-linkedin"></i> View on LinkedIn
+                        </a>
+                    </div>
+                </div>
+
+                <div class="internship-card">
+                    <div class="internship-header">
+                        <div class="internship-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <img data-src="img/in2.jpg" alt="Prodigy InfoTech" class="company-logo" loading="lazy">
+                    </div>
+                    <div class="internship-content">
+                        <h3>Machine Learning Intern</h3>
+                        <p class="company">Prodigy InfoTech</p>
+                        <p class="duration">One Month Intensive Program</p>
+                        <div class="skill-tags">
+                            <span>AI</span>
+                            <span>ML Models</span>
+                            <span>Data Analysis</span>
+                            <span>Problem Solving</span>
+                        </div>
+                        <ul class="achievements">
+                            <li>Developed complex ML models and algorithms</li>
+                            <li>Solved real-world problems through data-driven solutions</li>
+                            <li>Collaborated with industry professionals</li>
+                        </ul>
+                        <a href="https://www.linkedin.com/posts/sohal-dhavale-3b1208258_prodigyinfotech-aiinnovation-machinelearningjourney-activity-7268491344824713216-UmoL?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE-8EQ4BI8kca2B-s4HXKHKZH72QOYXoyWY" target="_blank" class="linkedin-link">
+                            <i class="fab fa-linkedin"></i> View on LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3>Next-Gen Frontend</h3>
+                    <p>Future-ready websites that are fast, beautiful, and unforgettable ~crafted with precision, passion and heart.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-sitemap"></i>
+                    </div>
+                    <h3>Web Consultation</h3>
+                    <p>Tailored advice and cosmic roadmaps to navigate your digital challenges with confidence.</p>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">Connect</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p>sohaldhavale0m35@gmail.com</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Location</h3>
+                        <p>Maharashtra, India</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Phone</h3>
+                        <p>+91 8669817289</p>
+                    </div>
+                </div>
+                <div class="contact-form glass-card">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <div class="input-icon">
+                                <i class="fas fa-user"></i>
+                                <input type="text" id="name" name="name" required placeholder="Your Name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-icon">
+                                <i class="fas fa-envelope"></i>
+                                <input type="email" id="email" name="email" required placeholder="Your Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-icon">
+                                <i class="fas fa-comment"></i>
+                                <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn-future">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+           
+            <p class="copyright">© Shoal Dhavle</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
